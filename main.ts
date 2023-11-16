@@ -30,10 +30,10 @@ input.onButtonPressed(Button.A, function () {
       sprite.move(1)
       ledCoordinate++
     }
-  // tuning 90 degrees
-  sprite.turn(Direction.Right, 90)
+    // tuning 90 degrees
+    sprite.turn(Direction.Right, 90)
     loopCounter++
-    }
+  }
   // clean up
   sprite.delete()
   basic.pause(500)
